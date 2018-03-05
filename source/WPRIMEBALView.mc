@@ -45,7 +45,7 @@ class WPRIMEBALView extends Ui.SimpleDataField {
 	var countBelowCP = 0;
 	var TAUlive = 0;
 	var W = 0;
-	
+	var fitContributor;
     //! Set the label of the data field here.
     function initialize() {
         SimpleDataField.initialize();
@@ -145,6 +145,18 @@ class WPRIMEBALView extends Ui.SimpleDataField {
 				wprimebalpc = wprimebal/1000;
 			}
 			
+			//write data to fit contributor
+			if (fitContributor != null) {
+				fitContributor.setData(wprimebal/1000);
+			} else {
+				fitContributor = createField(
+					"W' Bal", 0, FitContributor.DATA_TYPE_UINT16,
+					{
+						:units => "KJ"
+					}
+				);
+			}				
+			
 			// One more second in life...
 			elapsedSec++;
 		}
@@ -155,7 +167,7 @@ class WPRIMEBALView extends Ui.SimpleDataField {
 		}
 
 		// For debug purposes on the simulator only
-		Sys.println("FORMULA: " + FORMULA + " - ELAPSED SEC: " + elapsedSec + " - POWER: " + pwr + " - WPRIMEBAL: " + wprimebal + " - TAULIVE: " + TAUlive);
+		Sys.println("FORMULA: " + FORMULA + " - ELAPSED SEC: " + elapsedSec + " - POWER: " + pwr + " - WPRIMEBAL: " + wprimebal + " - TAULIVE: " + TAUlive);	
 		
 		// Return the value to the watch
 		return wprimebalpc.format("%.1f");
