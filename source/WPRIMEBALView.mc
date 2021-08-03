@@ -160,6 +160,18 @@ class WPRIMEBALView extends Ui.SimpleDataField {
 			elapsedSec++;
 		}
 		else {
+			// Need to reset all the values from previous activities
+			elapsedSec = 0;
+			I = 0;
+			// If the formula is differential, initial value of w'bal is WPRIME.
+			wprimebal = 0;
+			if (FORMULA == 1) {
+				wprimebal = WPRIME;
+			}
+			wprimebalpc = 100;
+			totalBelowCP = 0;
+			countBelowCP = 0;
+
 			// Initial display, before the the session is started
 			return CP + "|" + WPRIME;
 			Sys.println("Elapsed time: " + info.elapsedTime);
