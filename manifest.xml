@@ -1,68 +1,90 @@
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
-    <iq:application entry="WPRIMEBALApp" id="1E3CF89EF364438FAF8DFF47393DC42C" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="datafield" version="2.3.2" minSdkVersion="1.2.0">
+    <iq:application entry="WPRIMEBALApp" id="1E3CF89EF364438FAF8DFF47393DC42C" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="datafield" version="2.4.0" minSdkVersion="1.2.0">
         <iq:products>
-            <iq:product id="fr745"/>
-            <iq:product id="fr945"/>
-            <iq:product id="fenix5xplus"/>
-            <iq:product id="marqathlete"/>
-            <iq:product id="fenix5x"/>
-            <iq:product id="descentmk2s"/>
-            <iq:product id="fenix5"/>
-            <iq:product id="fr945lte"/>
-            <iq:product id="d2deltapx"/>
-            <iq:product id="fenix3"/>
-            <iq:product id="descentmk2"/>
-            <iq:product id="fenix5plus"/>
-            <iq:product id="d2bravo"/>
-            <iq:product id="fenix7s"/>
-            <iq:product id="edge820"/>
-            <iq:product id="marqdriver"/>
-            <iq:product id="epix2"/>
-            <iq:product id="fr935"/>
-            <iq:product id="fr735xt"/>
             <iq:product id="fr920xt"/>
-            <iq:product id="marqexpedition"/>
-            <iq:product id="fenix6xpro"/>
-            <iq:product id="marqcommander"/>
-            <iq:product id="edge1030plus"/>
-            <iq:product id="edge830"/>
-            <iq:product id="fenixchronos"/>
-            <iq:product id="d2delta"/>
-            <iq:product id="fenix6"/>
-            <iq:product id="epix"/>
-            <iq:product id="fenix6s"/>
-            <iq:product id="fenix7"/>
-            <iq:product id="marqaviator"/>
-            <iq:product id="fenix5s"/>
-            <iq:product id="fenix6pro"/>
-            <iq:product id="edge530"/>
-            <iq:product id="fenix7x"/>
-            <iq:product id="descentmk1"/>
-            <iq:product id="marqgolfer"/>
-            <iq:product id="fenix5splus"/>
-            <iq:product id="marqcaptain"/>
-            <iq:product id="marqadventurer"/>
-            <iq:product id="d2charlie"/>
-            <iq:product id="edge130"/>
-            <iq:product id="edge1030bontrager"/>
-            <iq:product id="edge1030"/>
-            <iq:product id="edge520plus"/>
-            <iq:product id="d2deltas"/>
-            <iq:product id="edge130plus"/>
-            <iq:product id="d2air"/>
-            <iq:product id="fenix6spro"/>
-            <iq:product id="enduro"/>
+            <iq:product id="fr935"/>
+            <iq:product id="fr945"/>
+            <iq:product id="fr945lte"/>
+            <iq:product id="fr955"/>
+            <iq:product id="fr965"/>
+            <iq:product id="fr735xt"/>
+            <iq:product id="fr745"/>
             <iq:product id="fr255s"/>
             <iq:product id="fr255sm"/>
             <iq:product id="fr255"/>
             <iq:product id="fr255m"/>
-            <iq:product id="edge1040"/>
-            <iq:product id="fr955"/>
             <iq:product id="fr265"/>
             <iq:product id="fr265s"/>
-            <iq:product id="fr965"/>
-            <iq:product id="edge540"/>
+          
+            <iq:product id="fenix3"/>
+            <iq:product id="fenix5"/>
+            <iq:product id="fenix5s"/>
+            <iq:product id="fenix5x"/>
+            <iq:product id="fenix5plus"/>
+            <iq:product id="fenix5splus"/>
+            <iq:product id="fenix5xplus"/>
+            <iq:product id="fenix6"/>
+            <iq:product id="fenix6s"/>
+            <iq:product id="fenix6pro"/>
+            <iq:product id="fenix6spro"/>
+            <iq:product id="fenix6xpro"/>
+            <iq:product id="fenix7"/>
+            <iq:product id="fenix7s"/>
+            <iq:product id="fenix7x"/>
+            <iq:product id="fenix7pro"/>
+            <iq:product id="fenix7pronowifi"/>
+            <iq:product id="fenix7xpro"/>
+            <iq:product id="fenix7xpronowifi"/>
+            <iq:product id="fenix7spro"/>
+          
+            <iq:product id="epix"/>
+            <iq:product id="epix2"/>
+            <iq:product id="epix2pro47mm"/>
+            <iq:product id="epix2pro51mm"/>
+            <iq:product id="epix2pro42mm"/>
+          
+            <iq:product id="enduro"/>
+          
+            <iq:product id="fenixchronos"/>
+
+            <iq:product id="instinct2s"/>
+            <iq:product id="instinct2"/>
+            <iq:product id="instinct2x"/>
+          
+            <iq:product id="descentmk1"/>
+            <iq:product id="descentmk2s"/>
+            <iq:product id="descentmk2"/>
+          
+            <iq:product id="marqathlete"/>
+            <iq:product id="marqexpedition"/>
+            <iq:product id="marqcommander"/>
+            <iq:product id="marqdriver"/>
+            <iq:product id="marqcaptain"/>
+            <iq:product id="marqgolfer"/>
+            <iq:product id="marqadventurer"/>
+            <iq:product id="marqaviator"/>
+          
+            <iq:product id="d2deltapx"/>
+            <iq:product id="d2bravo"/>
+            <iq:product id="d2air"/>
+            <iq:product id="d2deltas"/>
+            <iq:product id="d2delta"/>
+            <iq:product id="d2charlie"/>
+
+            <iq:product id="edge1030"/>
+            <iq:product id="edge1030bontrager"/>
+            <iq:product id="edge1030plus"/>
+            <iq:product id="edge1040"/>
+            <iq:product id="edge1050"/>
+            <iq:product id="edge820"/>
+            <iq:product id="edge830"/>
             <iq:product id="edge840"/>
+            <iq:product id="edge520plus"/>
+            <iq:product id="edge530"/>
+            <iq:product id="edge540"/>
+            <iq:product id="edge130"/>
+            <iq:product id="edge130plus"/>
+
         </iq:products>
         <iq:permissions>
             <iq:uses-permission id="Background"/>
