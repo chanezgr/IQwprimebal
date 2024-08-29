@@ -1,0 +1,1560 @@
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 12; ]
+    module Strings {
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var DIFFERENTIAL_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var RWPRIME_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        var VALUE_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        var field_label as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
+        var field_units as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
+        var PERCENT_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        var FORMULA_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; ]
+        var TTE_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; ]
+        var KJ_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; ]
+        var TTE_enabled as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; ]
+        var CP_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; ]
+        var RFTPW_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; ]
+        var WPRIME_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; ]
+        var INTEGRAL_title as ResourceId;
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; ]
+        var TTE_disabled as ResourceId;
+    }
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 31; ]
+    module Styles {
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 31; ]
+        <init> {
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 32; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 32; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 33; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 36; ]
+        module system_size__menu_header {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 36; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 37; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 38; @position = 18; ]
+            const height as Number = 172;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 41; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 41; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 42; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 43; @position = 18; ]
+            const y as Number = 284;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 46; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 46; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 47; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 50; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 51; @position = 18; ]
+            const x as Number = 76;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 52; @position = 18; ]
+            const y as Number = 70;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 55; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 55; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 56; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__about.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 57; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 58; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 59; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 60; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 63; ]
+        module system_icon_light__question {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 63; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 64; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__question.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 65; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 66; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 67; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 68; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 71; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 71; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 72; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 75; ]
+        module prompt_font__title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 75; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 76 18 ]
+                %tmp.1 = getm $.Toybox.Graphics;
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_CENTER;
+                %tmp.3 = getm $.Toybox.Graphics;
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                %tmp.5 = bitor %tmp.2 %tmp.4;
+                putv self :justification %tmp.5;
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 77 18 ]
+                %tmp.6 = getm $.Toybox.Graphics;
+                %tmp.7 = getv %tmp.6 :FONT_TINY;
+                putv self :font %tmp.7;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 76; @position = 18; ]
+            const justification;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 77; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 80; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 80; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 81; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__discard.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 82; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 83; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 84; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 85; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 88; ]
+        module system_size__menu_item {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 88; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 89; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 90; @position = 18; ]
+            const height as Number = 108;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 93; ]
+        module system_color_dark__text {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 93; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 95 18 ]
+                %tmp.8 = getm $.Toybox.Graphics;
+                %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+                putv self :background %tmp.9;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 94; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 95; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 98; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 99; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__discard.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 100; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 101; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 104; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 104; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 105; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 106; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 107; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 110; ]
+        module prompt_size__title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 110; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 111; @position = 18; ]
+            const width as Number = 287;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 112; @position = 18; ]
+            const height as Number = 97;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 115; ]
+        module confirmation_font__body {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 115; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 116 18 ]
+                %tmp.10 = getm $.Toybox.Graphics;
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_VCENTER;
+                %tmp.14 = bitor %tmp.11 %tmp.13;
+                putv self :justification %tmp.14;
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 117 18 ]
+                %tmp.15 = getm $.Toybox.Graphics;
+                %tmp.16 = getv %tmp.15 :FONT_TINY;
+                putv self :font %tmp.16;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 116; @position = 18; ]
+            const justification;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 117; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 120; ]
+        module system_color_dark__background {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 120; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 121; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 122; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 125; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 125; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 126; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 127; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 128; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 131; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 131; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 132; @position = 18; ]
+            const scaleX as Number = 65;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 133; @position = 18; ]
+            const scaleY as Number = 65;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 134; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 137; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 137; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 138 18 ]
+                %tmp.17 = getm $.Toybox.WatchUi;
+                %tmp.18 = getv %tmp.17 :KEY_ENTER;
+                putv self :button %tmp.18;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 138; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 141; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 141; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 142 18 ]
+                %tmp.19 = getm $.Toybox.Graphics;
+                %tmp.20 = getv %tmp.19 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.20;
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 143 18 ]
+                %tmp.21 = getm $.Toybox.Graphics;
+                %tmp.22 = getv %tmp.21 :FONT_XTINY;
+                putv self :font %tmp.22;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 142; @position = 18; ]
+            const justification;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 143; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 146; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 147; @position = 18; ]
+            const x as Number = 70;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 148; @position = 18; ]
+            const y as Number = 104;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 151; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 152; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 153; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 154; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 157; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 158; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 159; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 162; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 162; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 163; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 164; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 165; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 168; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 168; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 169; @position = 18; ]
+            const x as Number = 379;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 170; @position = 18; ]
+            const y as Number = 89;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 173; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 173; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 174; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 175; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 176; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 179; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 179; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 180; @position = 18; ]
+            const x as Number = 3;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 181; @position = 18; ]
+            const y as Number = 184;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 184; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 184; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 185; @position = 18; ]
+            const width as Number = 302;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 186; @position = 18; ]
+            const height as Number = 315;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 189; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 189; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 190; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 191; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 192; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 195; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 196; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 197; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 200; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 200; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 201 18 ]
+                %tmp.23 = getm $.Toybox.WatchUi;
+                %tmp.24 = getv %tmp.23 :KEY_DOWN;
+                putv self :button %tmp.24;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 201; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 204; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 204; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 205; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 206; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 207; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 210; ]
+        module system_input__action_menu {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 210; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 211 18 ]
+                %tmp.25 = getm $.Toybox.WatchUi;
+                %tmp.26 = getv %tmp.25 :KEY_ENTER;
+                putv self :button %tmp.26;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 211; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 214; ]
+        module system_icon_light__save {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 214; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 215; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__save.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 216; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 217; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 218; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 219; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 222; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 222; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 224 18 ]
+                %tmp.27 = getm $.Toybox.Graphics;
+                %tmp.28 = getv %tmp.27 :COLOR_TRANSPARENT;
+                putv self :background %tmp.28;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 223; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 224; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 227; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 227; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 228; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 231; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 232; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__warning.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 233; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 234; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 235; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 236; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 239; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 239; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 241 18 ]
+                %tmp.29 = getm $.Toybox.Graphics;
+                %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+                putv self :background %tmp.30;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 240; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 241; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 244; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 244; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 245; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 246; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 247; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 250; ]
+        module activity_color_light__background {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 251; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 252; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 255; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 256; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 257; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 258; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 261; ]
+        module system_size__screen {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 261; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 262; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 263; @position = 18; ]
+            const height as Number = 454;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 266; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 266; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 267; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 268; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 269; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 272; ]
+        module system_color_light__background {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 272; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 273; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 274; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 277; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 278; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 279; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 280; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 283; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 284; @position = 18; ]
+            const x as Number = 379;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 285; @position = 18; ]
+            const y as Number = 89;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 288; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 288; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 290 18 ]
+                %tmp.31 = getm $.Toybox.Graphics;
+                %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
+                putv self :background %tmp.32;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 289; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 290; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 293; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 293; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 294 18 ]
+                %tmp.33 = getm $.Toybox.WatchUi;
+                %tmp.34 = getv %tmp.33 :KEY_ESC;
+                putv self :button %tmp.34;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 294; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 297; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 298; @position = 18; ]
+            const x as Number = 76;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 299; @position = 18; ]
+            const y as Number = 131;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 302; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 303; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__search.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 304; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 305; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 306; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 307; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 310; ]
+        module activity_color_light__text {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 310; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 312 18 ]
+                %tmp.35 = getm $.Toybox.Graphics;
+                %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                putv self :background %tmp.36;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 311; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 312; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 315; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 315; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 316; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 317; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 318; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 321; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 321; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 322; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__save.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 323; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 324; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 325; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 326; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 329; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 329; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 330; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 331; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 332; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 335; ]
+        module system_icon_light__search {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 335; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 336; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__search.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 337; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 338; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 339; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 340; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 343; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 343; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 344; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 345; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 346; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 349; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 350; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 351; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 352; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 355; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 355; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 356; @position = 18; ]
+            const x as Number = 369;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 357; @position = 18; ]
+            const y as Number = 283;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 360; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 360; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 361; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 362; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 363; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 366; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 366; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 368 18 ]
+                %tmp.37 = getm $.Toybox.Graphics;
+                %tmp.38 = getv %tmp.37 :COLOR_TRANSPARENT;
+                putv self :background %tmp.38;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 367; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 368; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 371; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 372; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 373; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 374; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 377; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 377; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 379 18 ]
+                %tmp.39 = getm $.Toybox.Graphics;
+                %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+                putv self :background %tmp.40;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 378; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 379; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 382; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 382; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 383; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 384; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 385; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 388; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 388; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 389; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 390; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 391; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 394; ]
+        module prompt_loc__title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 394; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 395; @position = 18; ]
+            const x as Number = 83;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 396; @position = 18; ]
+            const y as Number = 34;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 399; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 399; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 400; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 403; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 403; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 405 18 ]
+                %tmp.41 = getm $.Toybox.Graphics;
+                %tmp.42 = getv %tmp.41 :COLOR_TRANSPARENT;
+                putv self :background %tmp.42;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 404; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 405; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 408; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 408; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 409; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 410; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 411; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 414; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 414; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 415; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 416; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 417; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 420; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 421; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 422; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 423; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 426; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 427; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__cancel.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 428; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 429; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 430; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 431; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 434; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 434; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 435; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 436; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 437; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 440; ]
+        module system_icon_light__about {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 441; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__about.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 442; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 443; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 444; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 445; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 448; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 448; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 449; @position = 18; ]
+            const scaleX as Number = 45;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 450; @position = 18; ]
+            const scaleY as Number = 45;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 451; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 454; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 455; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 458; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 458; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 459; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 460; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 461; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 464; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 464; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 465; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 466; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 467; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 470; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 470; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 471; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 474; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 475; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 478; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 479; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 480; @position = 18; ]
+            const y as Number = 284;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 483; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 483; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 484; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 485; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 486; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 489; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 490; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 491; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 494; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 495; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 496; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 497; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 500; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 501; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 502; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 503; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 506; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 507; @position = 18; ]
+            const scaleX as Number = 55;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 508; @position = 18; ]
+            const scaleY as Number = 55;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 509; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 512; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 512; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 513; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_destructive__warning.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 514; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 515; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 518; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 518; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 519; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 522; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 522; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 523; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__cancel.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 524; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 525; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 526; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 527; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 530; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 531; @position = 18; ]
+            const width as Number = 302;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 532; @position = 18; ]
+            const height as Number = 254;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 535; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 535; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 536; @position = 18; ]
+            const x as Number = 379;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 537; @position = 18; ]
+            const y as Number = 89;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 540; ]
+        module system_color_light__text {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 540; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 542 18 ]
+                %tmp.43 = getm $.Toybox.Graphics;
+                %tmp.44 = getv %tmp.43 :COLOR_TRANSPARENT;
+                putv self :background %tmp.44;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 541; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 542; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 545; ]
+        module system_icon_light__check {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 546; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__check.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 547; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 548; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 549; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 550; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 553; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 553; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 554 18 ]
+                %tmp.45 = getm $.Toybox.WatchUi;
+                %tmp.46 = getv %tmp.45 :KEY_DOWN;
+                putv self :button %tmp.46;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 554; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 557; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 558; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__revert.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 559; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 560; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 561; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 562; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 565; ]
+        module system_size__subwindow {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 566; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 569; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 570; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 571; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 572; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 575; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 576; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__check.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 577; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 578; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 579; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 580; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 583; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 583; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 584; @position = 18; ]
+            const x as Number = 372;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 585; @position = 18; ]
+            const y as Number = 286;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 588; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 588; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 589; @position = 18; ]
+            const x as Number = 16;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 590; @position = 18; ]
+            const y as Number = 284;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 593; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 593; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 594; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 595; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 596; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 599; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 599; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 600; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 603; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 603; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 604; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 605; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 606; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 609; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 609; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 610; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 611; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 612; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 615; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 616; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 617; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 618; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 621; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 622; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__revert.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 623; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 624; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 625; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 626; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 629; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 629; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 630; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 631; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 632; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 635; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 635; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 636; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__question.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 637; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 638; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 639; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 640; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 643; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 644; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__discard.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 645; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 646; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 647; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 648; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 651; ]
+        module device_info {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 651; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 653 18 ]
+                %tmp.47 = getm $.Toybox.System;
+                %tmp.48 = getv %tmp.47 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.48;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 652; @position = 18; ]
+            const screenWidth as Number = 454;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 653; @position = 18; ]
+            const screenShape;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 654; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 655; @position = 18; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 656; @position = 18; ]
+            const screenHeight as Number = 454;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 657; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 658; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 661; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 661; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 662; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 663; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 664; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 667; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 667; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 668 18 ]
+                %tmp.49 = getm $.Toybox.Graphics;
+                %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_CENTER;
+                %tmp.51 = getm $.Toybox.Graphics;
+                %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_VCENTER;
+                %tmp.53 = bitor %tmp.50 %tmp.52;
+                putv self :justification %tmp.53;
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 669 18 ]
+                %tmp.54 = getm $.Toybox.Graphics;
+                %tmp.55 = getv %tmp.54 :FONT_XTINY;
+                putv self :font %tmp.55;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 668; @position = 18; ]
+            const justification;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 669; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 672; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 672; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 673; @position = 18; ]
+            const scaleX as Float = 0.13;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 674; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 677; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 677; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 678; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_dark__warning.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 679; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 680; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 681; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 682; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 685; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 685; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 686; @position = 18; ]
+            const x as Number = 227;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 687; @position = 18; ]
+            const y as Number = 46;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 688; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 689; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 692; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 692; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 693; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 696; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 696; ]
+            <init> {
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen" 698 18 ]
+                %tmp.56 = getm $.Toybox.Graphics;
+                %tmp.57 = getv %tmp.56 :COLOR_TRANSPARENT;
+                putv self :background %tmp.57;
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 697; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 698; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 701; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 701; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 702; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 703; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 704; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 707; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 707; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 708; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 709; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 710; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 713; ]
+        module confirmation_size__body {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 713; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 714; @position = 18; ]
+            const width as Number = 316;
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 715; @position = 18; ]
+            const height as Number = 246;
+        }
+        [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 718; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 718; ]
+            <init> {
+            }
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 719; @position = 18; ]
+            const filename as String = "/Users/greg/Library/Application Support/Garmin/ConnectIQ/Devices/fr965/system_icon_positive__check.svg";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 720; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 721; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/gen/006-B4315-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

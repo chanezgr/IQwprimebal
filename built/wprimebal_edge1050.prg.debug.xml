@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/built/gen/006-B4440-00/source/Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="2" lineNum="30" parent="globals/WPRIMEBALView" pc="268435480" symbol="&lt;init&gt;"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="2" lineNum="42" parent="globals/WPRIMEBALView" pc="268435491" symbol="&lt;init&gt;"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" id="3" lineNum="26" parent="globals/WPRIMEBALApp" pc="268435502" symbol="&lt;init&gt;"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="123" parent="globals/WPRIMEBALView" pc="268435514" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="127" parent="globals/WPRIMEBALView" pc="268435517" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="130" parent="globals/WPRIMEBALView" pc="268435528" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="132" parent="globals/WPRIMEBALView" pc="268435538" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="134" parent="globals/WPRIMEBALView" pc="268435549" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="136" parent="globals/WPRIMEBALView" pc="268435560" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="140" parent="globals/WPRIMEBALView" pc="268435571" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="144" parent="globals/WPRIMEBALView" pc="268435584" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="145" parent="globals/WPRIMEBALView" pc="268435595" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="146" parent="globals/WPRIMEBALView" pc="268435609" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="149" parent="globals/WPRIMEBALView" pc="268435660" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="156" parent="globals/WPRIMEBALView" pc="268435687" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="157" parent="globals/WPRIMEBALView" pc="268435701" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="160" parent="globals/WPRIMEBALView" pc="268435722" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="163" parent="globals/WPRIMEBALView" pc="268435730" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="164" parent="globals/WPRIMEBALView" pc="268435744" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="165" parent="globals/WPRIMEBALView" pc="268435762" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="167" parent="globals/WPRIMEBALView" pc="268435780" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="168" parent="globals/WPRIMEBALView" pc="268435790" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="171" parent="globals/WPRIMEBALView" pc="268435851" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="175" parent="globals/WPRIMEBALView" pc="268435895" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="176" parent="globals/WPRIMEBALView" pc="268435955" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="177" parent="globals/WPRIMEBALView" pc="268436011" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="181" parent="globals/WPRIMEBALView" pc="268436029" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="182" parent="globals/WPRIMEBALView" pc="268436053" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="185" parent="globals/WPRIMEBALView" pc="268436072" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="185" parent="globals/WPRIMEBALView" pc="268436092" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="186" parent="globals/WPRIMEBALView" pc="268436123" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="187" parent="globals/WPRIMEBALView" pc="268436138" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="188" parent="globals/WPRIMEBALView" pc="268436154" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="190" parent="globals/WPRIMEBALView" pc="268436181" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="191" parent="globals/WPRIMEBALView" pc="268436209" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="193" parent="globals/WPRIMEBALView" pc="268436230" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="195" parent="globals/WPRIMEBALView" pc="268436240" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="198" parent="globals/WPRIMEBALView" pc="268436270" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="202" parent="globals/WPRIMEBALView" pc="268436286" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="206" parent="globals/WPRIMEBALView" pc="268436304" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="215" parent="globals/WPRIMEBALView" pc="268436346" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="216" parent="globals/WPRIMEBALView" pc="268436381" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="219" parent="globals/WPRIMEBALView" pc="268436428" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="4" lineNum="220" parent="globals/WPRIMEBALView" pc="268436451" symbol="compute"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="60" parent="globals/WPRIMEBALView" pc="268436470" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="61" parent="globals/WPRIMEBALView" pc="268436473" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="63" parent="globals/WPRIMEBALView" pc="268436485" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="65" parent="globals/WPRIMEBALView" pc="268436497" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="66" parent="globals/WPRIMEBALView" pc="268436505" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="67" parent="globals/WPRIMEBALView" pc="268436541" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="68" parent="globals/WPRIMEBALView" pc="268436577" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="73" parent="globals/WPRIMEBALView" pc="268436592" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="74" parent="globals/WPRIMEBALView" pc="268436628" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="75" parent="globals/WPRIMEBALView" pc="268436664" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="79" parent="globals/WPRIMEBALView" pc="268436676" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="80" parent="globals/WPRIMEBALView" pc="268436712" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="81" parent="globals/WPRIMEBALView" pc="268436748" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="84" parent="globals/WPRIMEBALView" pc="268436784" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="85" parent="globals/WPRIMEBALView" pc="268436804" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="89" parent="globals/WPRIMEBALView" pc="268436823" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="90" parent="globals/WPRIMEBALView" pc="268436834" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="94" parent="globals/WPRIMEBALView" pc="268436849" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="95" parent="globals/WPRIMEBALView" pc="268436859" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="96" parent="globals/WPRIMEBALView" pc="268436869" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="99" parent="globals/WPRIMEBALView" pc="268436884" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="103" parent="globals/WPRIMEBALView" pc="268436899" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="104" parent="globals/WPRIMEBALView" pc="268436909" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="107" parent="globals/WPRIMEBALView" pc="268436924" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="111" parent="globals/WPRIMEBALView" pc="268436936" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALView.mc" id="5" lineNum="117" parent="globals/WPRIMEBALView" pc="268436983" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" id="6" lineNum="33" parent="globals/WPRIMEBALApp" pc="268437007" symbol="onStart"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" id="7" lineNum="41" parent="globals/WPRIMEBALApp" pc="268437010" symbol="getInitialView"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" id="7" lineNum="42" parent="globals/WPRIMEBALApp" pc="268437012" symbol="getInitialView"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" id="8" lineNum="28" parent="globals/WPRIMEBALApp" pc="268437042" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" id="8" lineNum="29" parent="globals/WPRIMEBALApp" pc="268437044" symbol="initialize"/>
+<entry filename="/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" id="9" lineNum="37" parent="globals/WPRIMEBALApp" pc="268437057" symbol="onStop"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="8390519" symbol="output"/>
+<entry id="6" object="true" symbol="WPRIMEBALView"/>
+<entry field="true" id="16" symbol="avgpwr"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="42" symbol="WPRIME_title"/>
+<entry id="8389849" symbol="units"/>
+<entry field="true" id="25" symbol="wprimebal"/>
+<entry field="true" id="30" symbol="CP_title"/>
+<entry field="true" id="21" symbol="remainmin"/>
+<entry field="true" id="27" symbol="wprimebalpc"/>
+<entry field="true" id="22" symbol="remainsec"/>
+<entry field="true" id="32" symbol="FORMULA_title"/>
+<entry field="true" id="34" symbol="KJ_title"/>
+<entry id="8388647" module="true" symbol="UserProfile"/>
+<entry field="true" id="38" symbol="TTE_disabled"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="29" symbol="AppName"/>
+<entry field="true" id="10" symbol="SPORT"/>
+<entry field="true" id="31" symbol="DIFFERENTIAL_title"/>
+<entry id="4" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="18" symbol="elapsedSec"/>
+<entry field="true" id="24" symbol="totalBelowCP"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry field="true" id="37" symbol="RWPRIME_title"/>
+<entry field="true" id="12" symbol="TTE"/>
+<entry field="true" id="13" symbol="VALUE"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry field="true" id="35" symbol="PERCENT_title"/>
+<entry field="true" id="15" symbol="WPRIME"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="39" symbol="TTE_enabled"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="7" symbol="CP"/>
+<entry field="true" id="26" symbol="wprimebalField"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="44" symbol="field_units"/>
+<entry field="true" id="8" symbol="FORMULA"/>
+<entry field="true" id="28" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry field="true" id="11" symbol="TAUlive"/>
+<entry field="true" id="36" symbol="RFTPW_title"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="19" symbol="powerValue"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="40" symbol="TTE_title"/>
+<entry field="true" id="17" symbol="countBelowCP"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389847" symbol="mesgType"/>
+<entry field="true" id="20" symbol="pwr"/>
+<entry field="true" id="33" symbol="INTEGRAL_title"/>
+<entry id="5" object="true" symbol="WPRIMEBALApp"/>
+<entry field="true" id="41" symbol="VALUE_title"/>
+<entry field="true" id="43" symbol="field_label"/>
+<entry field="true" id="23" symbol="rollingpwr"/>
+<entry field="true" id="14" symbol="W"/>
+<entry field="true" id="9" symbol="I"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268436469" name="info" stackId="1" startPc="268435514"/>
+<entry endPc="268436122" name="i" stackId="2" startPc="268436092"/>
+<entry endPc="268437005" name="SportProfile" stackId="1" startPc="268436473"/>
+<entry endPc="268436822" name="i" stackId="2" startPc="268436804"/>
+</localVars>
+<deviceInfo deviceVersion="c78f2ff347753f2d98ab571552af61e920d0a10c" partNumber="006-B4440-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="KJ_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="PERCENT_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TTE_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="field_label"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="FORMULA_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="RFTPW_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TTE_enabled"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="WPRIME_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TTE_disabled"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="CP_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="RWPRIME_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="VALUE_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="field_units"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DIFFERENTIAL_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="INTEGRAL_title"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="107" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/WPRIMEBALView" offset="151" parentId="globals" symbolId="WPRIMEBALView" type="class"/>
+<dataEntry label="globals/WPRIMEBALApp" offset="402" parentId="globals" symbolId="WPRIMEBALApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="473" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="508" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435479" name="&lt;init&gt;" parent="Rez" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435501" name="&lt;init&gt;" parent="WPRIMEBALView" startPc="268435480">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435513" name="&lt;init&gt;" parent="WPRIMEBALApp" startPc="268435502">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436469" name="compute" parent="WPRIMEBALView" startPc="268435514">
+<param id="info"/>
+<documentation><![CDATA[<div class="description"> The given info object contains all the current workout<br/> information. Calculate a value and return it in this method.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437006" name="initialize" parent="WPRIMEBALView" startPc="268436470">
+<documentation><![CDATA[<div class="description"> Set the label of the data field here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437009" name="onStart" parent="WPRIMEBALApp" startPc="268437007">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437041" name="getInitialView" parent="WPRIMEBALApp" startPc="268437010">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437056" name="initialize" parent="WPRIMEBALApp" startPc="268437042">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437059" name="onStop" parent="WPRIMEBALApp" startPc="268437057">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>

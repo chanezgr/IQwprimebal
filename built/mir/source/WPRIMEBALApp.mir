@@ -1,0 +1,45 @@
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 24; ]
+using Toybox.Application as :App;
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 26; ]
+class WPRIMEBALApp extends App.AppBase{
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 26; ]
+    <init> {
+    }
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 26; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 28; ]
+    function initialize() as Void {
+_Users_greg_kDrive_Drive_Connect_IQ_Projects_WPRIMEBAL_repo_IQwprimebal_source_WPRIMEBALApp_mc_28_26_30_4_start:
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" 29 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_greg_kDrive_Drive_Connect_IQ_Projects_WPRIMEBAL_repo_IQwprimebal_source_WPRIMEBALApp_mc_28_26_30_4_stop:
+    }
+    //! onStart() is called on application start up
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 33; ]
+    function onStart(state) {
+    }
+    //! onStop() is called when your application is exiting
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 37; ]
+    function onStop(state) {
+    }
+    //! Return the initial view of your application here
+    [ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 41; ]
+    function getInitialView() {
+_Users_greg_kDrive_Drive_Connect_IQ_Projects_WPRIMEBAL_repo_IQwprimebal_source_WPRIMEBALApp_mc_41_30_43_4_start:
+[ "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc" 42 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :WPRIMEBALView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_Users_greg_kDrive_Drive_Connect_IQ_Projects_WPRIMEBAL_repo_IQwprimebal_source_WPRIMEBALApp_mc_41_30_43_4_stop:
+    }
+}
+[ @file = "/Users/greg/kDrive/Drive/Connect IQ Projects/WPRIMEBAL_repo/IQwprimebal/source/WPRIMEBALApp.mc"; @line = 24; ]
+<init> {
+}
