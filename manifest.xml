@@ -1,5 +1,5 @@
 <iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
-    <iq:application entry="WPRIMEBALApp" id="1E3CF89EF364438FAF8DFF47393DC42C" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="datafield" version="2.4.0" minSdkVersion="1.2.0">
+    <iq:application entry="WPRIMEBALApp" id="1E3CF89EF364438FAF8DFF47393DC42C" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="datafield" version="2.4.1" minSdkVersion="1.2.0">
         <iq:products>
             <iq:product id="fr920xt"/>
             <iq:product id="fr935"/>
