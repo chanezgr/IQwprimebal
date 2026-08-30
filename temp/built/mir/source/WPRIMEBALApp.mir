@@ -1,0 +1,48 @@
+[ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 24; @symbol_usingdef<0> = [Toybox,24,6,12]; @symbol_usingdef<1> = [Application,24,13,24]; @symbol_usingAlias = [App,24,28,31]; ]
+using Toybox.Application as :App;
+[ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 26; @symbol_classdef = [WPRIMEBALApp,26,6,18]; @symbol_extends<0> = [App,26,27,30]; @symbol_extends<1> = [AppBase,26,31,38]; ]
+class WPRIMEBALApp extends App.AppBase {
+    [ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 26; ]
+    <init> {
+    }
+    [ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 26; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 28; @symbol_functiondef = [initialize,28,13,23]; ]
+    function initialize() as Void {
+_home_sdk_source_WPRIMEBALApp_mc_28_26_30_4_start:
+[ "/home/sdk/source/WPRIMEBALApp.mc" 29 8 ]
+        symbol [ AppBase %tmp.2 29 8 15 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 29 16 26 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_sdk_source_WPRIMEBALApp_mc_28_26_30_4_stop:
+    }
+    //! onStart() is called on application start up
+    [ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 33; @symbol_functiondef = [onStart,33,13,20]; @symbol_param<0> = [state,33,21,26]; ]
+    function onStart(state) {
+    }
+    //! onStop() is called when your application is exiting
+    [ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 37; @symbol_functiondef = [onStop,37,13,19]; @symbol_param<0> = [state,37,20,25]; ]
+    function onStop(state) {
+    }
+    //! Return the initial view of your application here
+    [ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 41; @symbol_functiondef = [getInitialView,41,13,27]; ]
+    function getInitialView() {
+_home_sdk_source_WPRIMEBALApp_mc_41_30_43_4_start:
+[ "/home/sdk/source/WPRIMEBALApp.mc" 42 8 ]
+        %tmp.1 = newa 1;
+        symbol [ WPRIMEBALView %tmp.5 42 21 34 ];
+        %tmp.5 = getv ? :WPRIMEBALView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_home_sdk_source_WPRIMEBALApp_mc_41_30_43_4_stop:
+    }
+}
+[ @file = "/home/sdk/source/WPRIMEBALApp.mc"; @line = 24; ]
+<init> {
+}

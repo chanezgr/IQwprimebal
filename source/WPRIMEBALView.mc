@@ -26,6 +26,7 @@ using Toybox.System as Sys;
 using Toybox.Application as App;
 using Toybox.FitContributor as Fit;
 using Toybox.UserProfile;
+using Toybox.Application.Properties;
 
 class WPRIMEBALView extends Ui.SimpleDataField {
 
@@ -39,7 +40,7 @@ class WPRIMEBALView extends Ui.SimpleDataField {
 	var SPORT;
 
 	// Variables
-	var rollingpwr = new [10];
+	var rollingpwr as Toybox.Lang.Array = new [10];
 	var avgpwr = 0;
 	var remainsec;
 	var remainmin;
@@ -58,27 +59,24 @@ class WPRIMEBALView extends Ui.SimpleDataField {
 	
     //! Set the label of the data field here.
     function initialize() {
-        SimpleDataField.initialize();
-        // Get current sport profile
-        var SportProfile = UserProfile.getCurrentSport();
-		// IF SPORT IS RUNNING
+
+		SimpleDataField.initialize();
+		var SportProfile = UserProfile.getCurrentSport();
+
+		// Remplacement de getProperty par Properties.getValue
 		if (SportProfile == 1) {
-			CP = App.getApp().getProperty("RFTPW").toNumber();
-			WPRIME = App.getApp().getProperty("RWPRIME").toNumber();
+			CP = Properties.getValue("RFTPW").toNumber();
+			WPRIME = Properties.getValue("RWPRIME").toNumber();
 			SPORT = "R";
+		} else {
+			CP = Properties.getValue("CP").toNumber();
+			WPRIME = Properties.getValue("WPRIME").toNumber();
+			SPORT = "C";
 		}
-		
-        // IF SPORT IS CYCLING
-		else {
-			CP = App.getApp().getProperty("CP").toNumber();
-			WPRIME = App.getApp().getProperty("WPRIME").toNumber();
-			SPORT="C";
-		}
-		
-		// GLOBAL SETTINGS
-    	FORMULA = App.getApp().getProperty("FORMULA").toNumber();
-    	VALUE = App.getApp().getProperty("VALUE").toNumber();
-    	TTE = App.getApp().getProperty("TTE").toNumber();
+
+		FORMULA = Properties.getValue("FORMULA").toNumber();
+		VALUE = Properties.getValue("VALUE").toNumber();
+		TTE = Properties.getValue("TTE").toNumber();
     	
     	// Initialize the array of the last 10 seconds of power
     	for(var i = 0; i < rollingpwr.size(); i++) {

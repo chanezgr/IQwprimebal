@@ -1,0 +1,1616 @@
+[ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,9,27,39]; @symbol_type<0> = [ResourceId,9,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
+    module Strings {
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [DIFFERENTIAL_title,13,27,45]; @symbol_type<0> = [ResourceId,13,49,59]; ]
+        var DIFFERENTIAL_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; @symbol_vardef = [RWPRIME_title,14,27,40]; @symbol_type<0> = [ResourceId,14,44,54]; ]
+        var RWPRIME_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; @symbol_vardef = [VALUE_title,15,27,38]; @symbol_type<0> = [ResourceId,15,42,52]; ]
+        var VALUE_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; @symbol_vardef = [field_label,16,27,38]; @symbol_type<0> = [ResourceId,16,42,52]; ]
+        var field_label as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; @symbol_vardef = [field_units,17,27,38]; @symbol_type<0> = [ResourceId,17,42,52]; ]
+        var field_units as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; @symbol_vardef = [PERCENT_title,18,27,40]; @symbol_type<0> = [ResourceId,18,44,54]; ]
+        var PERCENT_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; @symbol_vardef = [FORMULA_title,19,27,40]; @symbol_type<0> = [ResourceId,19,44,54]; ]
+        var FORMULA_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; @symbol_vardef = [TTE_title,20,27,36]; @symbol_type<0> = [ResourceId,20,40,50]; ]
+        var TTE_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; @symbol_vardef = [KJ_title,21,27,35]; @symbol_type<0> = [ResourceId,21,39,49]; ]
+        var KJ_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; @symbol_vardef = [AppName,22,27,34]; @symbol_type<0> = [ResourceId,22,38,48]; ]
+        var AppName as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [TTE_enabled,23,27,38]; @symbol_type<0> = [ResourceId,23,42,52]; ]
+        var TTE_enabled as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [CP_title,24,27,35]; @symbol_type<0> = [ResourceId,24,39,49]; ]
+        var CP_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [RFTPW_title,25,27,38]; @symbol_type<0> = [ResourceId,25,42,52]; ]
+        var RFTPW_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [WPRIME_title,26,27,39]; @symbol_type<0> = [ResourceId,26,43,53]; ]
+        var WPRIME_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; @symbol_vardef = [INTEGRAL_title,27,27,41]; @symbol_type<0> = [ResourceId,27,45,55]; ]
+        var INTEGRAL_title as ResourceId;
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; @symbol_vardef = [TTE_disabled,28,27,39]; @symbol_type<0> = [ResourceId,28,43,53]; ]
+        var TTE_disabled as ResourceId;
+    }
+    [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 31; @symbol_moduledef = [Styles,31,11,17]; ]
+    module Styles {
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 31; ]
+        <init> {
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 32; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,32,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 32; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 33; @position = 18; @symbol_constdef = [exclude,33,18,25]; @symbol_type<0> = [Boolean,33,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 36; @symbol_moduledef = [system_size__menu_header,36,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 36; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 37; @position = 18; @symbol_constdef = [width,37,18,23]; @symbol_type<0> = [Number,37,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 38; @position = 18; @symbol_constdef = [height,38,18,24]; @symbol_type<0> = [Number,38,28,34]; ]
+            const height as Number = 169;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 41; @symbol_moduledef = [system_loc__hint_button_left_bottom,41,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 41; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 42; @position = 18; @symbol_constdef = [x,42,18,19]; @symbol_type<0> = [Number,42,23,29]; ]
+            const x as Number = 15;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 43; @position = 18; @symbol_constdef = [y,43,18,19]; @symbol_type<0> = [Number,43,23,29]; ]
+            const y as Number = 291;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 46; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,46,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 46; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [exclude,47,18,25]; @symbol_type<0> = [Boolean,47,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 50; @symbol_moduledef = [prompt_loc__body_no_title,50,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 50; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 51; @position = 18; @symbol_constdef = [x,51,18,19]; @symbol_type<0> = [Number,51,23,29]; ]
+            const x as Number = 56;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 52; @position = 18; @symbol_constdef = [y,52,18,19]; @symbol_type<0> = [Number,52,23,29]; ]
+            const y as Number = 89;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 55; @symbol_moduledef = [system_icon_dark__about,55,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 55; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [filename,56,18,26]; @symbol_type<0> = [String,56,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__about.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 57; @position = 18; @symbol_constdef = [compress,57,18,26]; @symbol_type<0> = [String,57,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 58; @position = 18; @symbol_constdef = [dithering,58,18,27]; @symbol_type<0> = [String,58,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 59; @position = 18; @symbol_constdef = [automaticPalette,59,18,34]; @symbol_type<0> = [String,59,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 60; @position = 18; @symbol_constdef = [packingFormat,60,18,31]; @symbol_type<0> = [String,60,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 63; @symbol_moduledef = [system_icon_light__question,63,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 63; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 64; @position = 18; @symbol_constdef = [filename,64,18,26]; @symbol_type<0> = [String,64,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__question.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 65; @position = 18; @symbol_constdef = [compress,65,18,26]; @symbol_type<0> = [String,65,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 66; @position = 18; @symbol_constdef = [dithering,66,18,27]; @symbol_type<0> = [String,66,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 67; @position = 18; @symbol_constdef = [automaticPalette,67,18,34]; @symbol_type<0> = [String,67,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 68; @position = 18; @symbol_constdef = [packingFormat,68,18,31]; @symbol_type<0> = [String,68,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 71; @symbol_moduledef = [system_loc__hint_button_left_top,71,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 71; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 72; @position = 18; @symbol_constdef = [exclude,72,18,25]; @symbol_type<0> = [Boolean,72,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 75; @symbol_moduledef = [prompt_font__title,75,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 75; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 76 18 ]
+                symbol [ Graphics %tmp.1 76 34 42 ];
+                %tmp.1 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.2 76 43 62 ];
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.3 76 63 71 ];
+                %tmp.3 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.4 76 72 92 ];
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                %tmp.5 = bitor %tmp.2 %tmp.4;
+                putv self :justification %tmp.5;
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 77 18 ]
+                symbol [ Graphics %tmp.6 77 25 33 ];
+                %tmp.6 = getm $.Toybox.Graphics;
+                symbol [ FONT_GLANCE_NUMBER %tmp.7 77 34 52 ];
+                %tmp.7 = getv %tmp.6 :FONT_GLANCE_NUMBER;
+                putv self :font %tmp.7;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [justification,76,18,31]; ]
+            const justification;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [font,77,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 80; @symbol_moduledef = [system_icon_dark__discard,80,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 80; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [filename,81,18,26]; @symbol_type<0> = [String,81,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__discard.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 82; @position = 18; @symbol_constdef = [compress,82,18,26]; @symbol_type<0> = [String,82,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [dithering,83,18,27]; @symbol_type<0> = [String,83,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 84; @position = 18; @symbol_constdef = [automaticPalette,84,18,34]; @symbol_type<0> = [String,84,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [packingFormat,85,18,31]; @symbol_type<0> = [String,85,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 88; @symbol_moduledef = [system_size__menu_item,88,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 88; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [width,89,18,23]; @symbol_type<0> = [Number,89,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [height,90,18,24]; @symbol_type<0> = [Number,90,28,34]; ]
+            const height as Number = 116;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 93; @symbol_moduledef = [system_color_dark__text,93,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 93; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 95 18 ]
+                symbol [ Graphics %tmp.8 95 31 39 ];
+                %tmp.8 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.9 95 40 57 ];
+                %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+                putv self :background %tmp.9;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [color,94,18,23]; @symbol_type<0> = [Number,94,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [background,95,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 98; @symbol_moduledef = [system_icon_destructive__discard,98,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 98; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [filename,99,18,26]; @symbol_type<0> = [String,99,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__discard.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [dithering,100,18,27]; @symbol_type<0> = [String,100,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 101; @position = 18; @symbol_constdef = [packingFormat,101,18,31]; @symbol_type<0> = [String,101,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 104; @symbol_moduledef = [system_icon_dark__hint_action_menu,104,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 104; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [filename,105,18,26]; @symbol_type<0> = [String,105,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 106; @position = 18; @symbol_constdef = [dithering,106,18,27]; @symbol_type<0> = [String,106,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [packingFormat,107,18,31]; @symbol_type<0> = [String,107,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 110; @symbol_moduledef = [prompt_size__title,110,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 110; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 111; @position = 18; @symbol_constdef = [width,111,18,23]; @symbol_type<0> = [Number,111,27,33]; ]
+            const width as Number = 360;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 112; @position = 18; @symbol_constdef = [height,112,18,24]; @symbol_type<0> = [Number,112,28,34]; ]
+            const height as Number = 48;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 115; @symbol_moduledef = [confirmation_font__body,115,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 115; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 116 18 ]
+                symbol [ Graphics %tmp.10 116 34 42 ];
+                %tmp.10 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.11 116 43 62 ];
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.12 116 63 71 ];
+                %tmp.12 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.13 116 72 92 ];
+                %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_VCENTER;
+                %tmp.14 = bitor %tmp.11 %tmp.13;
+                putv self :justification %tmp.14;
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 117 18 ]
+                symbol [ Graphics %tmp.15 117 25 33 ];
+                %tmp.15 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.16 117 34 43 ];
+                %tmp.16 = getv %tmp.15 :FONT_TINY;
+                putv self :font %tmp.16;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 116; @position = 18; @symbol_constdef = [justification,116,18,31]; ]
+            const justification;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [font,117,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 120; @symbol_moduledef = [system_color_dark__background,120,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 120; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 121; @position = 18; @symbol_constdef = [color,121,18,23]; @symbol_type<0> = [Number,121,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [background,122,18,28]; @symbol_type<0> = [Number,122,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 125; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,125,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 125; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 126; @position = 18; @symbol_constdef = [filename,126,18,26]; @symbol_type<0> = [String,126,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [dithering,127,18,27]; @symbol_type<0> = [String,127,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [packingFormat,128,18,31]; @symbol_type<0> = [String,128,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 131; @symbol_moduledef = [system_size__launch_icon,131,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 131; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [scaleX,132,18,24]; @symbol_type<0> = [Number,132,28,34]; ]
+            const scaleX as Number = 65;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [scaleY,133,18,24]; @symbol_type<0> = [Number,133,28,34]; ]
+            const scaleY as Number = 65;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 134; @position = 18; @symbol_constdef = [scaleRelativeTo,134,18,33]; @symbol_type<0> = [String,134,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 137; @symbol_moduledef = [confirmation_input__confirm,137,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 137; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 138 18 ]
+                symbol [ WatchUi %tmp.17 138 27 34 ];
+                %tmp.17 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.18 138 35 44 ];
+                %tmp.18 = getv %tmp.17 :KEY_ENTER;
+                putv self :button %tmp.18;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [button,138,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 141; @symbol_moduledef = [prompt_font__body_with_title,141,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 141; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 142 18 ]
+                symbol [ Graphics %tmp.19 142 34 42 ];
+                %tmp.19 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.20 142 43 62 ];
+                %tmp.20 = getv %tmp.19 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.20;
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 143 18 ]
+                symbol [ Graphics %tmp.21 143 25 33 ];
+                %tmp.21 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.22 143 34 44 ];
+                %tmp.22 = getv %tmp.21 :FONT_XTINY;
+                putv self :font %tmp.22;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [justification,142,18,31]; ]
+            const justification;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [font,143,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 146; @symbol_moduledef = [confirmation_loc__body,146,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [x,147,18,19]; @symbol_type<0> = [Number,147,23,29]; ]
+            const x as Number = 70;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [y,148,18,19]; @symbol_type<0> = [Number,148,23,29]; ]
+            const y as Number = 70;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 151; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,151,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [filename,152,18,26]; @symbol_type<0> = [String,152,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [dithering,153,18,27]; @symbol_type<0> = [String,153,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 154; @position = 18; @symbol_constdef = [packingFormat,154,18,31]; @symbol_type<0> = [String,154,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 157; @symbol_moduledef = [prompt_color_dark__background,157,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [color,158,18,23]; @symbol_type<0> = [Number,158,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 159; @position = 18; @symbol_constdef = [background,159,18,28]; @symbol_type<0> = [Number,159,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 162; @symbol_moduledef = [system_icon_destructive__hint_action_menu,162,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 162; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [filename,163,18,26]; @symbol_type<0> = [String,163,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 164; @position = 18; @symbol_constdef = [dithering,164,18,27]; @symbol_type<0> = [String,164,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 165; @position = 18; @symbol_constdef = [packingFormat,165,18,31]; @symbol_type<0> = [String,165,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 168; @symbol_moduledef = [system_loc__hint_action_menu,168,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 168; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [x,169,18,19]; @symbol_type<0> = [Number,169,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 170; @position = 18; @symbol_constdef = [y,170,18,19]; @symbol_type<0> = [Number,170,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 173; @symbol_moduledef = [confirmation_icon__hint_confirm,173,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 173; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 174; @position = 18; @symbol_constdef = [filename,174,18,26]; @symbol_type<0> = [String,174,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 175; @position = 18; @symbol_constdef = [dithering,175,18,27]; @symbol_type<0> = [String,175,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 176; @position = 18; @symbol_constdef = [packingFormat,176,18,31]; @symbol_type<0> = [String,176,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 179; @symbol_moduledef = [system_loc__hint_button_left_middle,179,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 179; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 180; @position = 18; @symbol_constdef = [x,180,18,19]; @symbol_type<0> = [Number,180,23,29]; ]
+            const x as Number = 2;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 181; @position = 18; @symbol_constdef = [y,181,18,19]; @symbol_type<0> = [Number,181,23,29]; ]
+            const y as Number = 181;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 184; @symbol_moduledef = [prompt_size__body_no_title,184,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 184; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 185; @position = 18; @symbol_constdef = [width,185,18,23]; @symbol_type<0> = [Number,185,27,33]; ]
+            const width as Number = 342;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 186; @position = 18; @symbol_constdef = [height,186,18,24]; @symbol_type<0> = [Number,186,28,34]; ]
+            const height as Number = 275;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 189; @symbol_moduledef = [system_icon_light__hint_button_left_top,189,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 189; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 190; @position = 18; @symbol_constdef = [filename,190,18,26]; @symbol_type<0> = [String,190,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [dithering,191,18,27]; @symbol_type<0> = [String,191,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [packingFormat,192,18,31]; @symbol_type<0> = [String,192,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 195; @symbol_moduledef = [prompt_color_light__background,195,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [color,196,18,23]; @symbol_type<0> = [Number,196,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [background,197,18,28]; @symbol_type<0> = [Number,197,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 200; @symbol_moduledef = [confirmation_input__delete,200,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 200; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 201 18 ]
+                symbol [ WatchUi %tmp.23 201 27 34 ];
+                %tmp.23 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.24 201 35 44 ];
+                %tmp.24 = getv %tmp.23 :KEY_ENTER;
+                putv self :button %tmp.24;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [button,201,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 204; @symbol_moduledef = [system_icon_dark__hint_button_left_top,204,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 204; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [filename,205,18,26]; @symbol_type<0> = [String,205,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [dithering,206,18,27]; @symbol_type<0> = [String,206,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 207; @position = 18; @symbol_constdef = [packingFormat,207,18,31]; @symbol_type<0> = [String,207,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 210; @symbol_moduledef = [system_input__action_menu,210,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 210; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 211 18 ]
+                symbol [ WatchUi %tmp.25 211 27 34 ];
+                %tmp.25 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.26 211 35 44 ];
+                %tmp.26 = getv %tmp.25 :KEY_ENTER;
+                putv self :button %tmp.26;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [button,211,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 214; @symbol_moduledef = [system_icon_light__save,214,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 214; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 215; @position = 18; @symbol_constdef = [filename,215,18,26]; @symbol_type<0> = [String,215,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__save.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [compress,216,18,26]; @symbol_type<0> = [String,216,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [dithering,217,18,27]; @symbol_type<0> = [String,217,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 218; @position = 18; @symbol_constdef = [automaticPalette,218,18,34]; @symbol_type<0> = [String,218,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [packingFormat,219,18,31]; @symbol_type<0> = [String,219,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 222; @symbol_moduledef = [prompt_color_light__body,222,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 222; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 224 18 ]
+                symbol [ Graphics %tmp.27 224 31 39 ];
+                %tmp.27 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.28 224 40 57 ];
+                %tmp.28 = getv %tmp.27 :COLOR_TRANSPARENT;
+                putv self :background %tmp.28;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [color,223,18,23]; @symbol_type<0> = [Number,223,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 224; @position = 18; @symbol_constdef = [background,224,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 227; @symbol_moduledef = [system_loc__subwindow,227,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 227; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [exclude,228,18,25]; @symbol_type<0> = [Boolean,228,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 231; @symbol_moduledef = [system_icon_light__warning,231,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [filename,232,18,26]; @symbol_type<0> = [String,232,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__warning.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 233; @position = 18; @symbol_constdef = [compress,233,18,26]; @symbol_type<0> = [String,233,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [dithering,234,18,27]; @symbol_type<0> = [String,234,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [automaticPalette,235,18,34]; @symbol_type<0> = [String,235,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 236; @position = 18; @symbol_constdef = [packingFormat,236,18,31]; @symbol_type<0> = [String,236,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 239; @symbol_moduledef = [confirmation_color_light__body,239,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 239; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 241 18 ]
+                symbol [ Graphics %tmp.29 241 31 39 ];
+                %tmp.29 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.30 241 40 57 ];
+                %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+                putv self :background %tmp.30;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [color,240,18,23]; @symbol_type<0> = [Number,240,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 241; @position = 18; @symbol_constdef = [background,241,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 244; @symbol_moduledef = [confirmation_icon_light__hint_keep,244,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 244; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [filename,245,18,26]; @symbol_type<0> = [String,245,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [dithering,246,18,27]; @symbol_type<0> = [String,246,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 247; @position = 18; @symbol_constdef = [packingFormat,247,18,31]; @symbol_type<0> = [String,247,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 250; @symbol_moduledef = [activity_color_light__background,250,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [color,251,18,23]; @symbol_type<0> = [Number,251,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 252; @position = 18; @symbol_constdef = [background,252,18,28]; @symbol_type<0> = [Number,252,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 255; @symbol_moduledef = [system_icon_positive__hint_button_right_top,255,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [filename,256,18,26]; @symbol_type<0> = [String,256,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 257; @position = 18; @symbol_constdef = [dithering,257,18,27]; @symbol_type<0> = [String,257,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 258; @position = 18; @symbol_constdef = [packingFormat,258,18,31]; @symbol_type<0> = [String,258,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 261; @symbol_moduledef = [system_size__screen,261,15,34]; ]
+        module system_size__screen {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 261; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 262; @position = 18; @symbol_constdef = [width,262,18,23]; @symbol_type<0> = [Number,262,27,33]; ]
+            const width as Number = 454;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 263; @position = 18; @symbol_constdef = [height,263,18,24]; @symbol_type<0> = [Number,263,28,34]; ]
+            const height as Number = 454;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 266; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,266,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 266; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [filename,267,18,26]; @symbol_type<0> = [String,267,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 268; @position = 18; @symbol_constdef = [dithering,268,18,27]; @symbol_type<0> = [String,268,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [packingFormat,269,18,31]; @symbol_type<0> = [String,269,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 272; @symbol_moduledef = [system_color_light__background,272,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 272; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [color,273,18,23]; @symbol_type<0> = [Number,273,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [background,274,18,28]; @symbol_type<0> = [Number,274,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 277; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,277,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [filename,278,18,26]; @symbol_type<0> = [String,278,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [dithering,279,18,27]; @symbol_type<0> = [String,279,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [packingFormat,280,18,31]; @symbol_type<0> = [String,280,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 283; @symbol_moduledef = [confirmation_loc__hint_confirm,283,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 283; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [x,284,18,19]; @symbol_type<0> = [Number,284,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [y,285,18,19]; @symbol_type<0> = [Number,285,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 288; @symbol_moduledef = [activity_color_dark__text,288,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 288; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 290 18 ]
+                symbol [ Graphics %tmp.31 290 31 39 ];
+                %tmp.31 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.32 290 40 57 ];
+                %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
+                putv self :background %tmp.32;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 289; @position = 18; @symbol_constdef = [color,289,18,23]; @symbol_type<0> = [Number,289,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [background,290,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 293; @symbol_moduledef = [confirmation_input__keep,293,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 293; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 294 18 ]
+                symbol [ WatchUi %tmp.33 294 27 34 ];
+                %tmp.33 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.34 294 35 43 ];
+                %tmp.34 = getv %tmp.33 :KEY_DOWN;
+                putv self :button %tmp.34;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [button,294,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 297; @symbol_moduledef = [prompt_loc__body_with_title,297,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [x,298,18,19]; @symbol_type<0> = [Number,298,23,29]; ]
+            const x as Number = 58;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [y,299,18,19]; @symbol_type<0> = [Number,299,23,29]; ]
+            const y as Number = 203;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 302; @symbol_moduledef = [system_icon_dark__search,302,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 302; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [filename,303,18,26]; @symbol_type<0> = [String,303,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__search.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 304; @position = 18; @symbol_constdef = [compress,304,18,26]; @symbol_type<0> = [String,304,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [dithering,305,18,27]; @symbol_type<0> = [String,305,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 306; @position = 18; @symbol_constdef = [automaticPalette,306,18,34]; @symbol_type<0> = [String,306,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 307; @position = 18; @symbol_constdef = [packingFormat,307,18,31]; @symbol_type<0> = [String,307,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 310; @symbol_moduledef = [activity_color_light__text,310,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 310; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 312 18 ]
+                symbol [ Graphics %tmp.35 312 31 39 ];
+                %tmp.35 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.36 312 40 57 ];
+                %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                putv self :background %tmp.36;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [color,311,18,23]; @symbol_type<0> = [Number,311,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [background,312,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 315; @symbol_moduledef = [confirmation_icon__hint_keep,315,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 315; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [filename,316,18,26]; @symbol_type<0> = [String,316,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 317; @position = 18; @symbol_constdef = [dithering,317,18,27]; @symbol_type<0> = [String,317,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [packingFormat,318,18,31]; @symbol_type<0> = [String,318,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 321; @symbol_moduledef = [system_icon_dark__save,321,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 321; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [filename,322,18,26]; @symbol_type<0> = [String,322,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__save.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [compress,323,18,26]; @symbol_type<0> = [String,323,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [dithering,324,18,27]; @symbol_type<0> = [String,324,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [automaticPalette,325,18,34]; @symbol_type<0> = [String,325,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [packingFormat,326,18,31]; @symbol_type<0> = [String,326,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 329; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,329,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 329; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [filename,330,18,26]; @symbol_type<0> = [String,330,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [dithering,331,18,27]; @symbol_type<0> = [String,331,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [packingFormat,332,18,31]; @symbol_type<0> = [String,332,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 335; @symbol_moduledef = [system_icon_light__search,335,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 335; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [filename,336,18,26]; @symbol_type<0> = [String,336,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__search.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [compress,337,18,26]; @symbol_type<0> = [String,337,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [dithering,338,18,27]; @symbol_type<0> = [String,338,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [automaticPalette,339,18,34]; @symbol_type<0> = [String,339,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [packingFormat,340,18,31]; @symbol_type<0> = [String,340,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 343; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,343,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 343; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [filename,344,18,26]; @symbol_type<0> = [String,344,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 345; @position = 18; @symbol_constdef = [dithering,345,18,27]; @symbol_type<0> = [String,345,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 346; @position = 18; @symbol_constdef = [packingFormat,346,18,31]; @symbol_type<0> = [String,346,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 349; @symbol_moduledef = [system_icon_positive__hint_button_left_top,349,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 350; @position = 18; @symbol_constdef = [filename,350,18,26]; @symbol_type<0> = [String,350,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 351; @position = 18; @symbol_constdef = [dithering,351,18,27]; @symbol_type<0> = [String,351,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [packingFormat,352,18,31]; @symbol_type<0> = [String,352,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 355; @symbol_moduledef = [system_loc__hint_button_right_bottom,355,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 355; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 356; @position = 18; @symbol_constdef = [x,356,18,19]; @symbol_type<0> = [Number,356,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [y,357,18,19]; @symbol_type<0> = [Number,357,23,29]; ]
+            const y as Number = 291;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 360; @symbol_moduledef = [confirmation_icon_dark__hint_reject,360,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 360; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 361; @position = 18; @symbol_constdef = [filename,361,18,26]; @symbol_type<0> = [String,361,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [dithering,362,18,27]; @symbol_type<0> = [String,362,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [packingFormat,363,18,31]; @symbol_type<0> = [String,363,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 366; @symbol_moduledef = [confirmation_color_dark__body,366,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 366; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 368 18 ]
+                symbol [ Graphics %tmp.37 368 31 39 ];
+                %tmp.37 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.38 368 40 57 ];
+                %tmp.38 = getv %tmp.37 :COLOR_TRANSPARENT;
+                putv self :background %tmp.38;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [color,367,18,23]; @symbol_type<0> = [Number,367,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [background,368,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 371; @symbol_moduledef = [confirmation_icon_light__hint_confirm,371,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [filename,372,18,26]; @symbol_type<0> = [String,372,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [dithering,373,18,27]; @symbol_type<0> = [String,373,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 374; @position = 18; @symbol_constdef = [packingFormat,374,18,31]; @symbol_type<0> = [String,374,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 377; @symbol_moduledef = [prompt_color_dark__title,377,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 377; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 379 18 ]
+                symbol [ Graphics %tmp.39 379 31 39 ];
+                %tmp.39 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.40 379 40 57 ];
+                %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+                putv self :background %tmp.40;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [color,378,18,23]; @symbol_type<0> = [Number,378,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 379; @position = 18; @symbol_constdef = [background,379,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 382; @symbol_moduledef = [system_icon_destructive__cancel,382,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 382; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [filename,383,18,26]; @symbol_type<0> = [String,383,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__cancel.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 384; @position = 18; @symbol_constdef = [dithering,384,18,27]; @symbol_type<0> = [String,384,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 385; @position = 18; @symbol_constdef = [packingFormat,385,18,31]; @symbol_type<0> = [String,385,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 388; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,388,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 388; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 389; @position = 18; @symbol_constdef = [filename,389,18,26]; @symbol_type<0> = [String,389,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 390; @position = 18; @symbol_constdef = [dithering,390,18,27]; @symbol_type<0> = [String,390,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [packingFormat,391,18,31]; @symbol_type<0> = [String,391,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 394; @symbol_moduledef = [prompt_loc__title,394,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 394; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 395; @position = 18; @symbol_constdef = [x,395,18,19]; @symbol_type<0> = [Number,395,23,29]; ]
+            const x as Number = 47;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [y,396,18,19]; @symbol_type<0> = [Number,396,23,29]; ]
+            const y as Number = 101;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 399; @symbol_moduledef = [confirmation_font_enhanced_readability__body,399,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 399; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 400; @position = 18; @symbol_constdef = [exclude,400,18,25]; @symbol_type<0> = [Boolean,400,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 403; @symbol_moduledef = [prompt_color_light__title,403,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 403; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 405 18 ]
+                symbol [ Graphics %tmp.41 405 31 39 ];
+                %tmp.41 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.42 405 40 57 ];
+                %tmp.42 = getv %tmp.41 :COLOR_TRANSPARENT;
+                putv self :background %tmp.42;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 404; @position = 18; @symbol_constdef = [color,404,18,23]; @symbol_type<0> = [Number,404,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 405; @position = 18; @symbol_constdef = [background,405,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 408; @symbol_moduledef = [system_icon_dark__hint_button_right_top,408,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 408; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [filename,409,18,26]; @symbol_type<0> = [String,409,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 410; @position = 18; @symbol_constdef = [dithering,410,18,27]; @symbol_type<0> = [String,410,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [packingFormat,411,18,31]; @symbol_type<0> = [String,411,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 414; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,414,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 414; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 415; @position = 18; @symbol_constdef = [filename,415,18,26]; @symbol_type<0> = [String,415,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [dithering,416,18,27]; @symbol_type<0> = [String,416,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [packingFormat,417,18,31]; @symbol_type<0> = [String,417,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 420; @symbol_moduledef = [confirmation_icon_dark__hint_keep,420,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [filename,421,18,26]; @symbol_type<0> = [String,421,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [dithering,422,18,27]; @symbol_type<0> = [String,422,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 423; @position = 18; @symbol_constdef = [packingFormat,423,18,31]; @symbol_type<0> = [String,423,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 426; @symbol_moduledef = [system_icon_light__cancel,426,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 426; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [filename,427,18,26]; @symbol_type<0> = [String,427,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__cancel.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 428; @position = 18; @symbol_constdef = [compress,428,18,26]; @symbol_type<0> = [String,428,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 429; @position = 18; @symbol_constdef = [dithering,429,18,27]; @symbol_type<0> = [String,429,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [automaticPalette,430,18,34]; @symbol_type<0> = [String,430,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [packingFormat,431,18,31]; @symbol_type<0> = [String,431,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 434; @symbol_moduledef = [confirmation_icon_light__hint_reject,434,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 434; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [filename,435,18,26]; @symbol_type<0> = [String,435,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [dithering,436,18,27]; @symbol_type<0> = [String,436,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 437; @position = 18; @symbol_constdef = [packingFormat,437,18,31]; @symbol_type<0> = [String,437,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 440; @symbol_moduledef = [system_icon_light__about,440,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [filename,441,18,26]; @symbol_type<0> = [String,441,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__about.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 442; @position = 18; @symbol_constdef = [compress,442,18,26]; @symbol_type<0> = [String,442,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 443; @position = 18; @symbol_constdef = [dithering,443,18,27]; @symbol_type<0> = [String,443,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 444; @position = 18; @symbol_constdef = [automaticPalette,444,18,34]; @symbol_type<0> = [String,444,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [packingFormat,445,18,31]; @symbol_type<0> = [String,445,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 448; @symbol_moduledef = [system_size__toast_icon,448,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 448; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [scaleX,449,18,24]; @symbol_type<0> = [Number,449,28,34]; ]
+            const scaleX as Number = 59;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [scaleY,450,18,24]; @symbol_type<0> = [Number,450,28,34]; ]
+            const scaleY as Number = 59;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [scaleRelativeTo,451,18,33]; @symbol_type<0> = [String,451,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 454; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,454,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [exclude,455,18,25]; @symbol_type<0> = [Boolean,455,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 458; @symbol_moduledef = [confirmation_icon__hint_reject,458,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 458; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [filename,459,18,26]; @symbol_type<0> = [String,459,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [dithering,460,18,27]; @symbol_type<0> = [String,460,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [packingFormat,461,18,31]; @symbol_type<0> = [String,461,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 464; @symbol_moduledef = [system_icon_light__hint_action_menu,464,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 464; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 465; @position = 18; @symbol_constdef = [filename,465,18,26]; @symbol_type<0> = [String,465,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [dithering,466,18,27]; @symbol_type<0> = [String,466,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 467; @position = 18; @symbol_constdef = [packingFormat,467,18,31]; @symbol_type<0> = [String,467,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 470; @symbol_moduledef = [system_icon_light__hint_button_right_middle,470,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 470; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [exclude,471,18,25]; @symbol_type<0> = [Boolean,471,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 474; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,474,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 475; @position = 18; @symbol_constdef = [exclude,475,18,25]; @symbol_type<0> = [Boolean,475,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 478; @symbol_moduledef = [confirmation_loc__hint_reject,478,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [x,479,18,19]; @symbol_type<0> = [Number,479,23,29]; ]
+            const x as Number = 15;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [y,480,18,19]; @symbol_type<0> = [Number,480,23,29]; ]
+            const y as Number = 291;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 483; @symbol_moduledef = [confirmation_icon_dark__hint_delete,483,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 483; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 484; @position = 18; @symbol_constdef = [filename,484,18,26]; @symbol_type<0> = [String,484,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [dithering,485,18,27]; @symbol_type<0> = [String,485,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [packingFormat,486,18,31]; @symbol_type<0> = [String,486,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 489; @symbol_moduledef = [activity_color_dark__background,489,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [color,490,18,23]; @symbol_type<0> = [Number,490,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [background,491,18,28]; @symbol_type<0> = [Number,491,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 494; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,494,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 495; @position = 18; @symbol_constdef = [filename,495,18,26]; @symbol_type<0> = [String,495,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 496; @position = 18; @symbol_constdef = [dithering,496,18,27]; @symbol_type<0> = [String,496,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [packingFormat,497,18,31]; @symbol_type<0> = [String,497,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 500; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,500,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [filename,501,18,26]; @symbol_type<0> = [String,501,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [dithering,502,18,27]; @symbol_type<0> = [String,502,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [packingFormat,503,18,31]; @symbol_type<0> = [String,503,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 506; @symbol_moduledef = [system_size__menu_icon,506,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 507; @position = 18; @symbol_constdef = [scaleX,507,18,24]; @symbol_type<0> = [Number,507,28,34]; ]
+            const scaleX as Number = 74;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [scaleY,508,18,24]; @symbol_type<0> = [Number,508,28,34]; ]
+            const scaleY as Number = 114;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [scaleRelativeTo,509,18,33]; @symbol_type<0> = [String,509,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 512; @symbol_moduledef = [system_icon_destructive__warning,512,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 512; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [filename,513,18,26]; @symbol_type<0> = [String,513,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_destructive__warning.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 514; @position = 18; @symbol_constdef = [dithering,514,18,27]; @symbol_type<0> = [String,514,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [packingFormat,515,18,31]; @symbol_type<0> = [String,515,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 518; @symbol_moduledef = [system_loc__hint_button_right_middle,518,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 518; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [exclude,519,18,25]; @symbol_type<0> = [Boolean,519,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 522; @symbol_moduledef = [system_icon_dark__cancel,522,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 522; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [filename,523,18,26]; @symbol_type<0> = [String,523,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__cancel.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [compress,524,18,26]; @symbol_type<0> = [String,524,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [dithering,525,18,27]; @symbol_type<0> = [String,525,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [automaticPalette,526,18,34]; @symbol_type<0> = [String,526,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [packingFormat,527,18,31]; @symbol_type<0> = [String,527,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 530; @symbol_moduledef = [prompt_size__body_with_title,530,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [width,531,18,23]; @symbol_type<0> = [Number,531,27,33]; ]
+            const width as Number = 338;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [height,532,18,24]; @symbol_type<0> = [Number,532,28,34]; ]
+            const height as Number = 173;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 535; @symbol_moduledef = [system_loc__hint_button_right_top,535,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 535; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [x,536,18,19]; @symbol_type<0> = [Number,536,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 537; @position = 18; @symbol_constdef = [y,537,18,19]; @symbol_type<0> = [Number,537,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 540; @symbol_moduledef = [system_color_light__text,540,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 540; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 542 18 ]
+                symbol [ Graphics %tmp.43 542 31 39 ];
+                %tmp.43 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.44 542 40 57 ];
+                %tmp.44 = getv %tmp.43 :COLOR_TRANSPARENT;
+                putv self :background %tmp.44;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [color,541,18,23]; @symbol_type<0> = [Number,541,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [background,542,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 545; @symbol_moduledef = [system_icon_light__check,545,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [filename,546,18,26]; @symbol_type<0> = [String,546,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__check.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [compress,547,18,26]; @symbol_type<0> = [String,547,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [dithering,548,18,27]; @symbol_type<0> = [String,548,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 549; @position = 18; @symbol_constdef = [automaticPalette,549,18,34]; @symbol_type<0> = [String,549,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 550; @position = 18; @symbol_constdef = [packingFormat,550,18,31]; @symbol_type<0> = [String,550,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 553; @symbol_moduledef = [confirmation_input__reject,553,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 553; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 554 18 ]
+                symbol [ WatchUi %tmp.45 554 27 34 ];
+                %tmp.45 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.46 554 35 43 ];
+                %tmp.46 = getv %tmp.45 :KEY_DOWN;
+                putv self :button %tmp.46;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [button,554,18,24]; ]
+            const button;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 557; @symbol_moduledef = [system_icon_light__revert,557,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [filename,558,18,26]; @symbol_type<0> = [String,558,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__revert.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 559; @position = 18; @symbol_constdef = [compress,559,18,26]; @symbol_type<0> = [String,559,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [dithering,560,18,27]; @symbol_type<0> = [String,560,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [automaticPalette,561,18,34]; @symbol_type<0> = [String,561,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [packingFormat,562,18,31]; @symbol_type<0> = [String,562,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 565; @symbol_moduledef = [system_size__subwindow,565,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [exclude,566,18,25]; @symbol_type<0> = [Boolean,566,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 569; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,569,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [filename,570,18,26]; @symbol_type<0> = [String,570,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [dithering,571,18,27]; @symbol_type<0> = [String,571,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [packingFormat,572,18,31]; @symbol_type<0> = [String,572,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 575; @symbol_moduledef = [system_icon_dark__check,575,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [filename,576,18,26]; @symbol_type<0> = [String,576,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__check.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [compress,577,18,26]; @symbol_type<0> = [String,577,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [dithering,578,18,27]; @symbol_type<0> = [String,578,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [automaticPalette,579,18,34]; @symbol_type<0> = [String,579,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [packingFormat,580,18,31]; @symbol_type<0> = [String,580,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 583; @symbol_moduledef = [confirmation_loc__hint_keep,583,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 583; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [x,584,18,19]; @symbol_type<0> = [Number,584,23,29]; ]
+            const x as Number = 15;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 585; @position = 18; @symbol_constdef = [y,585,18,19]; @symbol_type<0> = [Number,585,23,29]; ]
+            const y as Number = 291;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 588; @symbol_moduledef = [confirmation_loc__hint_delete,588,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 588; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [x,589,18,19]; @symbol_type<0> = [Number,589,23,29]; ]
+            const x as Number = 353;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 590; @position = 18; @symbol_constdef = [y,590,18,19]; @symbol_type<0> = [Number,590,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 593; @symbol_moduledef = [system_icon_positive__hint_action_menu,593,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 593; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 594; @position = 18; @symbol_constdef = [filename,594,18,26]; @symbol_type<0> = [String,594,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 595; @position = 18; @symbol_constdef = [dithering,595,18,27]; @symbol_type<0> = [String,595,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [packingFormat,596,18,31]; @symbol_type<0> = [String,596,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 599; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,599,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 599; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 600; @position = 18; @symbol_constdef = [exclude,600,18,25]; @symbol_type<0> = [Boolean,600,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 603; @symbol_moduledef = [system_icon_light__hint_button_left_middle,603,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 603; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [filename,604,18,26]; @symbol_type<0> = [String,604,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [dithering,605,18,27]; @symbol_type<0> = [String,605,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [packingFormat,606,18,31]; @symbol_type<0> = [String,606,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 609; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,609,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 609; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [filename,610,18,26]; @symbol_type<0> = [String,610,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [dithering,611,18,27]; @symbol_type<0> = [String,611,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [packingFormat,612,18,31]; @symbol_type<0> = [String,612,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 615; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,615,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [filename,616,18,26]; @symbol_type<0> = [String,616,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [dithering,617,18,27]; @symbol_type<0> = [String,617,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 618; @position = 18; @symbol_constdef = [packingFormat,618,18,31]; @symbol_type<0> = [String,618,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 621; @symbol_moduledef = [system_icon_dark__revert,621,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [filename,622,18,26]; @symbol_type<0> = [String,622,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__revert.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [compress,623,18,26]; @symbol_type<0> = [String,623,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [dithering,624,18,27]; @symbol_type<0> = [String,624,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [automaticPalette,625,18,34]; @symbol_type<0> = [String,625,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 626; @position = 18; @symbol_constdef = [packingFormat,626,18,31]; @symbol_type<0> = [String,626,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 629; @symbol_moduledef = [confirmation_icon_light__hint_delete,629,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 629; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [filename,630,18,26]; @symbol_type<0> = [String,630,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 631; @position = 18; @symbol_constdef = [dithering,631,18,27]; @symbol_type<0> = [String,631,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [packingFormat,632,18,31]; @symbol_type<0> = [String,632,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 635; @symbol_moduledef = [system_icon_dark__question,635,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 635; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 636; @position = 18; @symbol_constdef = [filename,636,18,26]; @symbol_type<0> = [String,636,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__question.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [compress,637,18,26]; @symbol_type<0> = [String,637,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [dithering,638,18,27]; @symbol_type<0> = [String,638,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [automaticPalette,639,18,34]; @symbol_type<0> = [String,639,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [packingFormat,640,18,31]; @symbol_type<0> = [String,640,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 643; @symbol_moduledef = [system_icon_light__discard,643,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [filename,644,18,26]; @symbol_type<0> = [String,644,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__discard.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [compress,645,18,26]; @symbol_type<0> = [String,645,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [dithering,646,18,27]; @symbol_type<0> = [String,646,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [automaticPalette,647,18,34]; @symbol_type<0> = [String,647,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [packingFormat,648,18,31]; @symbol_type<0> = [String,648,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 651; @symbol_moduledef = [device_info,651,15,26]; ]
+        module device_info {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 651; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 653 18 ]
+                symbol [ Toybox %tmp.48 653 32 38 ];
+                %tmp.48 = getv ? :Toybox;
+                symbol [ System %tmp.49 653 39 45 ];
+                %tmp.49 = getv %tmp.48 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.50 653 46 64 ];
+                %tmp.50 = getv %tmp.49 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.50;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [screenWidth,652,18,29]; @symbol_type<0> = [Number,652,33,39]; ]
+            const screenWidth as Number = 454;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [screenShape,653,18,29]; ]
+            const screenShape;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [hasNightMode,654,18,30]; @symbol_type<0> = [Boolean,654,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [hasGpu,655,18,24]; @symbol_type<0> = [Boolean,655,28,35]; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [screenHeight,656,18,30]; @symbol_type<0> = [Number,656,34,40]; ]
+            const screenHeight as Number = 454;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [hasTouchScreen,657,18,32]; @symbol_type<0> = [Boolean,657,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 658; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,658,18,44]; @symbol_type<0> = [Boolean,658,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 661; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,661,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 661; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [filename,662,18,26]; @symbol_type<0> = [String,662,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [dithering,663,18,27]; @symbol_type<0> = [String,663,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [packingFormat,664,18,31]; @symbol_type<0> = [String,664,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 667; @symbol_moduledef = [prompt_font__body_no_title,667,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 667; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 668 18 ]
+                symbol [ Graphics %tmp.51 668 34 42 ];
+                %tmp.51 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.52 668 43 62 ];
+                %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.53 668 63 71 ];
+                %tmp.53 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.54 668 72 92 ];
+                %tmp.54 = getv %tmp.53 :TEXT_JUSTIFY_VCENTER;
+                %tmp.55 = bitor %tmp.52 %tmp.54;
+                putv self :justification %tmp.55;
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 669 18 ]
+                symbol [ Graphics %tmp.56 669 25 33 ];
+                %tmp.56 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.57 669 34 44 ];
+                %tmp.57 = getv %tmp.56 :FONT_XTINY;
+                putv self :font %tmp.57;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [justification,668,18,31]; ]
+            const justification;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [font,669,18,22]; ]
+            const font;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 672; @symbol_moduledef = [prompt_size__title_icon,672,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 672; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 673; @position = 18; @symbol_constdef = [scaleX,673,18,24]; @symbol_type<0> = [Float,673,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 674; @position = 18; @symbol_constdef = [scaleRelativeTo,674,18,33]; @symbol_type<0> = [String,674,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 677; @symbol_moduledef = [system_icon_dark__warning,677,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 677; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 678; @position = 18; @symbol_constdef = [filename,678,18,26]; @symbol_type<0> = [String,678,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_dark__warning.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 679; @position = 18; @symbol_constdef = [compress,679,18,26]; @symbol_type<0> = [String,679,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [dithering,680,18,27]; @symbol_type<0> = [String,680,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 681; @position = 18; @symbol_constdef = [automaticPalette,681,18,34]; @symbol_type<0> = [String,681,38,44]; ]
+            const automaticPalette as String = "true";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 682; @position = 18; @symbol_constdef = [packingFormat,682,18,31]; @symbol_type<0> = [String,682,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 685; @symbol_moduledef = [prompt_loc__title_icon,685,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 685; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 686; @position = 18; @symbol_constdef = [x,686,18,19]; @symbol_type<0> = [Number,686,23,29]; ]
+            const x as Number = 227;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 687; @position = 18; @symbol_constdef = [y,687,18,19]; @symbol_type<0> = [Number,687,23,29]; ]
+            const y as Number = 148;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 688; @position = 18; @symbol_constdef = [horizontalJustification,688,18,41]; @symbol_type<0> = [String,688,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 689; @position = 18; @symbol_constdef = [verticalJustification,689,18,39]; @symbol_type<0> = [String,689,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 692; @symbol_moduledef = [prompt_font_enhanced_readability__title,692,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 692; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 693; @position = 18; @symbol_constdef = [exclude,693,18,25]; @symbol_type<0> = [Boolean,693,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 696; @symbol_moduledef = [prompt_color_dark__body,696,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 696; ]
+            <init> {
+[ "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen" 698 18 ]
+                symbol [ Graphics %tmp.58 698 31 39 ];
+                %tmp.58 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.59 698 40 57 ];
+                %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+                putv self :background %tmp.59;
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 697; @position = 18; @symbol_constdef = [color,697,18,23]; @symbol_type<0> = [Number,697,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 698; @position = 18; @symbol_constdef = [background,698,18,28]; ]
+            const background;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 701; @symbol_moduledef = [confirmation_icon__hint_delete,701,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 701; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 702; @position = 18; @symbol_constdef = [filename,702,18,26]; @symbol_type<0> = [String,702,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 703; @position = 18; @symbol_constdef = [dithering,703,18,27]; @symbol_type<0> = [String,703,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 704; @position = 18; @symbol_constdef = [packingFormat,704,18,31]; @symbol_type<0> = [String,704,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 707; @symbol_moduledef = [system_icon_light__hint_button_right_top,707,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 707; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 708; @position = 18; @symbol_constdef = [filename,708,18,26]; @symbol_type<0> = [String,708,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 709; @position = 18; @symbol_constdef = [dithering,709,18,27]; @symbol_type<0> = [String,709,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 710; @position = 18; @symbol_constdef = [packingFormat,710,18,31]; @symbol_type<0> = [String,710,35,41]; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 713; @symbol_moduledef = [confirmation_size__body,713,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 713; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 714; @position = 18; @symbol_constdef = [width,714,18,23]; @symbol_type<0> = [Number,714,27,33]; ]
+            const width as Number = 313;
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 715; @position = 18; @symbol_constdef = [height,715,18,24]; @symbol_type<0> = [Number,715,28,34]; ]
+            const height as Number = 313;
+        }
+        [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 718; @symbol_moduledef = [system_icon_positive__check,718,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 718; ]
+            <init> {
+            }
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 719; @position = 18; @symbol_constdef = [filename,719,18,26]; @symbol_type<0> = [String,719,30,36]; ]
+            const filename as String = "/root/.Garmin/ConnectIQ/Devices/fenix9pro47mm/system_icon_positive__check.svg";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 720; @position = 18; @symbol_constdef = [dithering,720,18,27]; @symbol_type<0> = [String,720,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 721; @position = 18; @symbol_constdef = [packingFormat,721,18,31]; @symbol_type<0> = [String,721,35,41]; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "/home/sdk/temp/built/gen/006-B4953-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}
