@@ -1,3 +1,2 @@
-built/*
-temp/*
-temp/built/*
+built/
+temp/
